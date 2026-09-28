@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Damah Rissa — Computer Science student, developer, and creative." />
+  <title>Damah Rissa | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#home">DR<span>.</span></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Damah <em>Rissa</em></h1>
+        <p class="hero-title">Computer Science Student · Developer · Creative</p>
+        <p class="hero-text">I build thoughtful digital experiences while exploring the intersection of technology, creativity, and real-world impact.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View my work</a>
+          <a class="button secondary" href="#contact">Let's connect</a>
+        </div>
+      </div>
+      <div class="hero-card" aria-label="Personal introduction card">
+        <div class="card-orbit"></div>
+        <div class="initials">DR</div>
+        <p>CURIOUS MIND</p>
+        <span>Always learning. Always building.</span>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-heading">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2>Technology meets <em>creativity.</em></h2>
+      </div>
+      <div class="about-grid">
+        <p>I’m a Computer Science student with a strong interest in programming and building useful digital products. I enjoy turning ideas into practical websites and applications, learning new technologies, and finding creative ways to solve problems.</p>
+        <p>Beyond code, I have a creative side shaped by fashion and design. That mix of technical thinking and creativity influences how I approach every project: functional, personal, and made with intention.</p>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT I WORK WITH</p>
+        <h2>Skills &amp; <em>interests.</em></h2>
+      </div>
+      <div class="skill-grid">
+        <article class="skill-card"><span>01</span><h3>Programming</h3><p>C, Java, problem solving, object-oriented programming and core computer science concepts.</p></article>
+        <article class="skill-card"><span>02</span><h3>Web Development</h3><p>HTML, CSS, JavaScript and modern approaches to creating responsive web experiences.</p></article>
+        <article class="skill-card"><span>03</span><h3>AI &amp; Data</h3><p>Exploring artificial intelligence, chatbots, data analytics and the technologies behind intelligent systems.</p></article>
+        <article class="skill-card"><span>04</span><h3>Creative Design</h3><p>A passion for fashion, visual aesthetics and designing experiences that feel distinct and human.</p></article>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="section-heading">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2>Things I’m <em>building.</em></h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="project-number">01</div>
+          <p class="project-type">TOURISM · COMMUNITY · TECH</p>
+          <h3>SafariSync</h3>
+          <p>A platform concept connecting travellers with overlooked Kenyan destinations and local communities for deeper, more authentic experiences.</p>
+          <div class="tags"><span>Web</span><span>Innovation</span><span>Kenya</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-number">02</div>
+          <p class="project-type">WEB DEVELOPMENT</p>
+          <h3>PrintCraft</h3>
+          <p>A modern printing-business website concept focused on clear product presentation, simple navigation and an approachable visual identity.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>React</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-number">03</div>
+          <p class="project-type">PERSONAL GROWTH</p>
+          <h3>RissaTech</h3>
+          <p>A future-facing idea for building an IT venture around practical digital solutions, development and emerging technology.</p>
+          <div class="tags"><span>Ideas</span><span>Tech</span><span>Future</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="contact-box">
+        <p class="eyebrow">HAVE AN IDEA?</p>
+        <h2>Let’s create something <em>meaningful.</em></h2>
+        <p>Whether you want to collaborate on a project, talk tech, or simply connect, I’d love to hear from you.</p>
+        <a class="button primary" href="mailto:hello@example.com">Send me an email</a>
+        <p class="small-note">Replace the email address above with your preferred contact email.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Damah Rissa. Built with curiosity &amp; code.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
